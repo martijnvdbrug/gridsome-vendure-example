@@ -1,0 +1,21 @@
+{
+  "name": "gridsome-vendure-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:martijnvdbrug/gridsome-vendure-example.git",
+  "author": "Martijn Pinelab <martijn@pinelab.studio>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "devDependencies": {
+    "@gridsome/cli": "^0.3.4",
+    "@gridsome/source-graphql": "^0.1.0",
+    "gridsome": "^0.7.0"
+  },
+  "dependencies": {
+    "graphql-request": "^3.4.0"
+  }
+}
